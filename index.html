@@ -4,62 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="myscript.js"></script>
-    <link rel="shortcut icon" href="#">
-    <title>Rock Papper Scissor Game</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <title>Rock Paper Scissors</title>
 </head>
 <body>
+    
+<header class="header">
+    <h1 class="heading">
+        <span class="win">Rock</span> <span class="draw">Paper</span> <span class="lose">Scissor</span>
+    </h1>
+</header>
 
-<p>Project to create Rock Paper Scissors game using only HTML, CSS and Vanilla JS.</p>    
+<main class="main">
+    <div class="player">
+        <h2 class="heading">Player</h2>
+        <i class="fas fa-question-circle player-choice"></i>
+    </div>
 
-<h5>From The Odin Project's curriculum.</h5>
+<div class="results">
+    <div class="result-box">
+        <h2 class="heading final-result"> Good Luck</h2>
+        <span class="round-result"></span>
+    </div>
+</div>
 
+<div class="stats">
+    <div class="stats-col">
+      <div class="stat">
+        <span class="round-count">0</span>
+        <p><i class="fas fa-undo-alt"></i> Rounds</p>
+      </div>
+      <div class="stat">
+        <span class="wins">0</span>
+        <p><i class="fas fa-medal"></i> Wins</p>
+      </div>
+    </div>
+    <div class="stats-col">
+      <div class="stat">
+        <span class="draws">0</span>
+        <p><i class="fas fa-balance-scale"></i> Draws</p>
+      </div>
+      <div class="stat">
+        <span class="defeats">0</span>
+        <p><i class="fas fa-skull"></i> Defeats</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-<b> Built with </b> <br>
+<div class="opponent">
+  <h2 class="heading">Opponent</h2>
+  <i class="fas fa-question-circle opponent-choice"></i>
+</div>
 
-<p><h3>Technologies </h3>
-- HTML <br>
-- CSS <br>
-- JS
-</p>
+<div class="controls">
+  <h2 class="heading">Choose your move</h2>
+  <div class="select">
+    <button class="selection rock" href="#"><i class="fas fa-hand-rock fa-fw"></i></button>
+    <button class="selection paper" href="#"><i class="fas fa-hand-paper fa-fw"></i></button>
+    <button class="selection scissors" href="#"><i class="fas fa-hand-peace fa-fw"></i></button>
+  </div>
+  <button class="new-game">New Game</button>
+</div>
+</main>
 
+<footer class="footer">
+<span class="footer-text">
+  Built by
+  <a class="footer-link" href="https://github.com/Artis-Dev/"target="_blank">ArtisDev</a> |
+  <a class="footer-link" href="https://github.com/Artis-Dev/rock-paper-scissors"target="_blank">Source</a>
+</span>
+</footer>
 
-<p><h3> Tools </h3>
-- Visual Studio Code <br>
-- Linux terminal <br>
-- Git and GitHub <br>
-- ESLint + Airbnb JavaScript Style Guide
-</p>
-
-<p>
-<h3>Third party code </h3>
-- modern-normalize <br>
-- Font Awesome <br>
-- Google Fonts
-</p>
-
-<p>
-<h2> Outcome </h2>
-- Used HTML5 semantic elements for better readability and structure. <br>
-- Used CSS3 grid to create template and responsivness. <br>
-- Used Git and GitHub for project management.<br>
-- Used Font Awesome icons. <br>
-- Tried to maintain clean code (0 ESLint warnings/errors). <br>
-- Cross tested on Firefox and Chromium based browsers.
-</p>
-
-<p>
-<h2>Summary</h2>
-<h5>What I learned</h5>
-- Better knowledge of Javascript basics. <br>
-- Improved code structure and code readability. <br>
-- Improved clean code writing. <br>
-- A lot of minor things. <br>
-- What could be improved <br>
-- Better mobile support. <br>
-- Cleaner code. <br>
-- My commit messages are still not perfect.
-
-</p>
+<script src="myscript.js"></script>
+</main>
 </body>
 </html>
