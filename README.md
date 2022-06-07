@@ -1,66 +1,65 @@
-# ROCK_PAPER-_SCISSORS
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="myscript.js"></script>
-    <link rel="shortcut icon" href="#">
-    <title>Rock Papper Scissor Game</title>
-</head>
-<body>
+# ROCK_PAPER_SCISSORS
 
-<p>Project to create Rock Paper Scissors game using only HTML, CSS and Vanilla JS.</p>    
-
-<h3>From The Odin Project's curriculum.</h3>
+![](https://img.shields.io/badge/RockPaperScissor-blueviolet)
 
 
-<b> Built with </b> <br>
+> The Odin Project - ROCK_PAPER-_SCISSORS
 
-<p><h3>Technologies </h3>
-- HTML <br>
-- CSS <br>
-- JS
-</p>
+Project to create Rock Paper Scissors game using only HTML, CSS and Vanilla JS.
+
+## Built With
+
+- HTML, CSS
+- JavaScript
+- Stylelint, Web Hint, Lighthouse
 
 
-<p><h3> Tools </h3>
-- Visual Studio Code <br>
-- Linux terminal <br>
-- Git and GitHub <br>
-- ESLint + Airbnb JavaScript Style Guide
-</p>
+## Getting Started
+To get a local copy up and running, follow the steps in Setup below.
 
-<p>
-<h3>Third party code </h3>
-- modern-normalize <br>
-- Font Awesome <br>
-- Google Fonts
-</p>
+### Prerequisites
+Basic knowledge of HTML, CSS.
 
-<p>
-<h2> Outcome </h2>
-- Used HTML5 semantic elements for better readability and structure. <br>
-- Used CSS3 grid to create template and responsivness. <br>
-- Used Git and GitHub for project management.<br>
-- Used Font Awesome icons. <br>
-- Tried to maintain clean code (0 ESLint warnings/errors). <br>
-- Cross tested on Firefox and Chromium based browsers.
-</p>
+### Setup
+If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
 
-<p>
-<h2>Summary</h2>
-<h5>What I learned</h5>
-- Better knowledge of Javascript basics. <br>
-- Improved code structure and code readability. <br>
-- Improved clean code writing. <br>
-- A lot of minor things. <br>
-- What could be improved <br>
-- Better mobile support. <br>
-- Cleaner code. <br>
-- My commit messages are still not perfect.
+[Download the ZIP from this location](https://github.com/Fatima-hub333/ROCK_PAPER-_SCISSORS/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
 
-</p>
-</body>
-</html>
+```bash
+git clone https://github.com/Fatima-hub333/ROCK_PAPER-_SCISSORS.git
+```
+
+- Once the files are on your machine, open the _Portfolio_ folder in [Visual Studio Code](https://code.visualstudio.com/).
+
+- With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+
+### Install
+
+The following tools help make easier to work with sample code.
+
+- [git](https://git-scm.com/downloads): A tool for managing source code
+- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
+
+## Authors
+
+👤 **Fatima Zahir**
+
+- GitHub: [@githubhandle](https://github.com/Fatima-hub333)
+- Twitter: [@twitterhandle](https://twitter.com/Fatima_developr)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/full-stack-webdeveloper-181583234/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Fatima-hub333/Portfolio_Mobile_Version_Skeleton-1/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
